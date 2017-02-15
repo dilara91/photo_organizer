@@ -29,6 +29,6 @@ def separate():
 					shutil.copy(cur_file, to_move_file)	
 					
 			
-	
+	print 'separation done'
 if __name__ == '__main__':
   separate()
